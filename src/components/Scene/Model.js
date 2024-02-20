@@ -22,8 +22,8 @@ export default function Model() {
     })
     
     return (
-        <group scale={viewport.width / 3} >
-            <Text font={'/fonts/PPNeueMontreal-Bold.otf'} position={[0, 0, -5]} fontSize={0.35} color="white" anchorX="center" anchorY="middle">
+        <group scale={viewport.width / 3.75} >
+            <Text font={'/fonts/PPNeueMontreal-Bold.otf'} position={[0, 0, -1]} fontSize={0.5} color="white" anchorX="center" anchorY="middle">
                 hello world!
             </Text>
             <mesh ref={torus} {...nodes.Torus002}>
